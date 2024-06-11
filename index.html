@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>SwissLex</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav
+                class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0"
+            >
+                <a href="index.html" class="navbar-brand p-0">
+                    <h1 class="m-0">SwissLex</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                >
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active"
+                            >Startseite</a
+                        >
+                        <a href="about.html" class="nav-item nav-link"
+                            >Über uns</a
+                        >
+                        <a href="testimonial.html" class="nav-item nav-link"
+                            >Bewertungen</a
+                        >
+                        <div class="nav-item dropdown">
+                            <a
+                                href="#"
+                                class="nav-link dropdown-toggle"
+                                data-bs-toggle="dropdown"
+                                >Dokumentarische Unterstützung</a
+                            >
+                            <div class="dropdown-menu m-0">
+                                <a
+                                    href="legalization.html"
+                                    class="dropdown-item"
+                                    >Legalisierung in der Schweiz</a
+                                >
+                                <a
+                                    href="receipt-benefits.html"
+                                    class="dropdown-item"
+                                    >Erhalt von EU-Leistungen</a
+                                >
+                                <a
+                                    href="consular-services.html"
+                                    class="dropdown-item"
+                                    >Konsularische Dienstleistungen</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Carousel Start -->
+            <div class="carousel-header">
+                <div
+                    id="carouselId"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                >
+                    <ol class="carousel-indicators">
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="0"
+                            class="active"
+                        ></li>
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="1"
+                        ></li>
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="2"
+                        ></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img
+                                src="img/carousel-2.jpg"
+                                class="img-fluid"
+                                alt="Image"
+                            />
+                            <div class="carousel-caption">
+                                <div class="p-3" style="max-width: 900px">
+                                    <h4
+                                        class="text-white text-uppercase fw-bold mb-4"
+                                        style="letter-spacing: 3px"
+                                    >
+                                        Ihre Anlaufstelle für hochwertige
+                                        juristische Unterstützung
+                                    </h4>
+                                    <h1
+                                        class="display-2 text-capitalize text-white mb-4"
+                                    >
+                                        Umfassende Rechtsdienstleistungen in der
+                                        Schweiz
+                                    </h1>
+                                    <p class="mb-5 fs-5">
+                                        Unser erfahrenes Team bietet eine breite
+                                        Palette an Rechtsdienstleistungen,
+                                        darunter die Erbringung von
+                                        unentgeltlichen Rechtsdienstleistungen
+                                        in Zusammenarbeit mit Partnern wie dem
+                                        Rechtsdienst UniBas, dem Rechtsdienst
+                                        UZH und dem Rechtsdienst UniSpital. Wir
+                                        kümmern uns um die Vermittlung von
+                                        Rechtsdienstleistungen, um
+                                        sicherzustellen, dass unsere Klienten
+                                        die bestmögliche rechtliche
+                                        Unterstützung erhalten. Ob es um die
+                                        Ausschreibung oder den Einkauf von
+                                        Rechtsdienstleistungen geht, wir stehen
+                                        Ihnen mit unserem Fachwissen zur Seite
+                                        und unterstützen Sie bei allen
+                                        rechtlichen Anliegen, einschließlich der
+                                        Sicherstellung Ihres Rechtsdomizils.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="img/carousel-1.jpg"
+                                class="img-fluid"
+                                alt="Image"
+                            />
+                            <div class="carousel-caption">
+                                <div class="p-3" style="max-width: 900px">
+                                    <h4
+                                        class="text-white text-uppercase fw-bold mb-4"
+                                        style="letter-spacing: 3px"
+                                    >
+                                        Maßgeschneiderte Lösungen für rechtliche
+                                        Herausforderungen
+                                    </h4>
+                                    <h1
+                                        class="display-2 text-capitalize text-white mb-4"
+                                    >
+                                        Ihre Experten für juristische
+                                        Dienstleistungen
+                                    </h1>
+                                    <p class="mb-5 fs-5">
+                                        Als renommierte Kanzlei bieten wir
+                                        umfassende Rechtsdienstleistungen an,
+                                        darunter die unentgeltliche Beratung
+                                        durch den Rechtsdienst UniBas,
+                                        Rechtsdienst UniBe und Rechtsdienst
+                                        UniSpital. Unsere Expertise umfasst die
+                                        Vermittlung, Ausschreibung und den
+                                        Einkauf von Rechtsdienstleistungen für
+                                        Institutionen wie das Volksschulamt
+                                        (VSA) und den Verband Schweizerischer
+                                        Maschinenindustrieller (VSSM). Mit einem
+                                        starken Fokus auf Qualität und
+                                        Kundenzufriedenheit helfen wir Ihnen,
+                                        das richtige Rechtsdomizil zu finden und
+                                        Ihre rechtlichen Anforderungen effektiv
+                                        zu bewältigen.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="img/carousel-3.jpg"
+                                class="img-fluid"
+                                alt="Image"
+                            />
+                            <div class="carousel-caption">
+                                <div class="p-3" style="max-width: 900px">
+                                    <h4
+                                        class="text-white text-uppercase fw-bold mb-4"
+                                        style="letter-spacing: 3px"
+                                    >
+                                        Vertrauen Sie auf unsere Erfahrung und
+                                        Kompetenz
+                                    </h4>
+                                    <h1
+                                        class="display-2 text-capitalize text-white mb-4"
+                                    >
+                                        Professionelle juristische Unterstützung
+                                        in der Schweiz
+                                    </h1>
+                                    <p class="mb-5 fs-5">
+                                        Unsere Kanzlei bietet spezialisierte
+                                        Rechtsdienstleistungen an,
+                                        einschließlich unentgeltlicher
+                                        Rechtsdienstleistungen durch den
+                                        Rechtsdienst UniBas, den Rechtsdienst
+                                        UZH und den Rechtsdienst Uri. Wir sind
+                                        Experten in der Vermittlung,
+                                        Ausschreibung und dem Einkauf von
+                                        Rechtsdienstleistungen und arbeiten eng
+                                        mit dem Volksschulamt (VSA) und dem
+                                        Rechtsdienst VSSM zusammen. Unser Ziel
+                                        ist es, Ihnen bei der Sicherung Ihres
+                                        Rechtsdomizils und der Bewältigung aller
+                                        rechtlichen Herausforderungen kompetent
+                                        zur Seite zu stehen. Vertrauen Sie auf
+                                        unsere langjährige Erfahrung und unser
+                                        Engagement für Ihre rechtlichen Belange.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselId"
+                        data-bs-slide="prev"
+                    >
+                        <span
+                            class="carousel-control-prev-icon btn bg-primary"
+                            aria-hidden="false"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselId"
+                        data-bs-slide="next"
+                    >
+                        <span
+                            class="carousel-control-next-icon btn bg-primary"
+                            aria-hidden="false"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!-- Carousel End -->
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Services Start -->
+        <div class="container-fluid bg-light service py-5">
+            <div class="container py-5">
+                <div class="mx-auto text-center mb-5" style="max-width: 900px">
+                    <h5 class="section-title px-3">Suchdienste</h5>
+                    <h1 class="mb-0">Unsere Dienstleistungen</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-12">
+                        <div class="row g-4">
+                            <div class="col-12">
+                                <div
+                                    class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0"
+                                >
+                                    <div class="service-icon p-4">
+                                        <i
+                                            class="fa fa-globe fa-4x text-primary"
+                                        ></i>
+                                    </div>
+                                    <div class="service-content">
+                                        <h5 class="mb-4">Rechtsdomizil</h5>
+                                        <p class="mb-0">
+                                            Wir bieten umfassende
+                                            Dienstleistungen im Bereich
+                                            Rechtsdomizil an. Unser Team hilft
+                                            Ihnen, das passende Rechtsdomizil zu
+                                            finden und alle rechtlichen
+                                            Anforderungen zu erfüllen, um Ihre
+                                            Geschäftstätigkeit rechtlich
+                                            abzusichern.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div
+                                    class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0"
+                                >
+                                    <div class="service-icon p-4">
+                                        <i
+                                            class="fa fa-hotel fa-4x text-primary"
+                                        ></i>
+                                    </div>
+                                    <div class="service-content">
+                                        <h5 class="mb-4">
+                                            Rechtsdienst für
+                                            Bildungseinrichtungen
+                                        </h5>
+                                        <p class="mb-0">
+                                            Wir bieten spezialisierte
+                                            Rechtsdienstleistungen für
+                                            Bildungseinrichtungen an,
+                                            einschließlich des Rechtsdienstes
+                                            für das Volksschulamt und anderer
+                                            Bildungseinrichtungen. Unser Ziel
+                                            ist es, Schulen und Universitäten
+                                            bei allen rechtlichen Fragen und
+                                            Herausforderungen zu unterstützen.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div
+                                    class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0"
+                                >
+                                    <div class="service-icon p-4">
+                                        <i
+                                            class="fa fa-user fa-4x text-primary"
+                                        ></i>
+                                    </div>
+                                    <div class="service-content">
+                                        <h5 class="mb-4">
+                                            Rechtsdienst für medizinische
+                                            Einrichtungen
+                                        </h5>
+                                        <p class="mb-0">
+                                            Wir bieten spezialisierte
+                                            Rechtsdienstleistungen für
+                                            medizinische Einrichtungen an, wie
+                                            zum Beispiel den Rechtsdienst
+                                            UniSpital. Unser Team unterstützt
+                                            Krankenhäuser und Kliniken bei
+                                            rechtlichen Angelegenheiten, von der
+                                            Patientenberatung bis hin zur
+                                            Einhaltung von
+                                            Gesundheitsvorschriften.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div
+                                    class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0"
+                                >
+                                    <div class="service-icon p-4">
+                                        <i
+                                            class="fa fa-cog fa-4x text-primary"
+                                        ></i>
+                                    </div>
+                                    <div class="service-content">
+                                        <h5 class="mb-4">
+                                            Rechtsdienst für öffentliche
+                                            Institutionen
+                                        </h5>
+                                        <p class="mb-0">
+                                            Unsere Kanzlei bietet
+                                            maßgeschneiderte
+                                            Rechtsdienstleistungen für
+                                            öffentliche Institutionen wie den
+                                            Rechtsdienst Volksschulamt und den
+                                            Rechtsdienst VSA. Wir helfen
+                                            öffentlichen Einrichtungen dabei,
+                                            rechtliche Herausforderungen zu
+                                            meistern und ihre rechtlichen
+                                            Verpflichtungen effizient zu
+                                            erfüllen.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+
+        <!-- Explore Tour Start -->
+        <div class="container-fluid ExploreTour py-5">
+            <div class="container py-5">
+                <div class="mx-auto text-center mb-5" style="max-width: 900px">
+                    <h5 class="section-title px-3">
+                        Besondere Merkmale unserer Kanzlei
+                    </h5>
+                    <h1 class="mb-4">Unsere Besonderheiten</h1>
+                    <p class="mb-0">
+                        Als führende Kanzlei in der Schweiz bieten wir eine
+                        Vielzahl von einzigartigen Dienstleistungen an, um
+                        sicherzustellen, dass unsere Klienten die bestmögliche
+                        rechtliche Unterstützung erhalten. Unsere Expertise
+                        umfasst unentgeltliche Rechtsdienstleistungen, die
+                        Vermittlung von Rechtsdienstleistungen sowie die
+                        Unterstützung bei der Ausschreibung und dem Einkauf von
+                        juristischen Diensten. Wir sind spezialisiert auf die
+                        Erbringung maßgeschneiderter juristischer Lösungen und
+                        bieten umfassende Services im Bereich Rechtsdomizil.
+                        Zudem unterstützen wir öffentliche Institutionen bei
+                        ihren rechtlichen Herausforderungen. Entdecken Sie
+                        unsere herausragenden Merkmale, die uns von anderen
+                        abheben und uns zu Ihrem vertrauenswürdigen Partner in
+                        allen rechtlichen Angelegenheiten machen.
+                    </p>
+                </div>
+                <div class="tab-class text-center">
+                    <ul
+                        class="nav nav-pills d-inline-flex justify-content-center mb-5"
+                    ></ul>
+                    <div class="tab-content">
+                        <div
+                            id="NationalTab-1"
+                            class="tab-pane fade show p-0 active"
+                        >
+                            <div class="row g-4">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="national-item">
+                                        <img
+                                            src="img/explore-tour-1.jpg"
+                                            class="img-fluid w-100 rounded"
+                                            alt="Image"
+                                        />
+                                        <div class="national-content">
+                                            <div class="national-info">
+                                                <h5
+                                                    class="text-white text-uppercase mb-2"
+                                                >
+                                                    Experten für unentgeltliche
+                                                    Rechtsdienstleistungen
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="national-item">
+                                        <img
+                                            src="img/explore-tour-2.jpg"
+                                            class="img-fluid w-100 rounded"
+                                            alt="Image"
+                                        />
+                                        <div class="national-content">
+                                            <div class="national-info">
+                                                <h5
+                                                    class="text-white text-uppercase mb-2"
+                                                >
+                                                    Umfangreiche Erfahrung in
+                                                    der Rechtsvermittlung
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="national-item">
+                                        <img
+                                            src="img/explore-tour-3.jpg"
+                                            class="img-fluid w-100 rounded"
+                                            alt="Image"
+                                        />
+                                        <div class="national-content">
+                                            <div class="national-info">
+                                                <h5
+                                                    class="text-white text-uppercase mb-2"
+                                                >
+                                                    Maßgeschneiderte juristische
+                                                    Dienstleistungen
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="national-item">
+                                        <img
+                                            src="img/explore-tour-4.jpg"
+                                            class="img-fluid w-100 rounded"
+                                            alt="Image"
+                                        />
+                                        <div class="national-content">
+                                            <div class="national-info">
+                                                <h5
+                                                    class="text-white text-uppercase mb-2"
+                                                >
+                                                    Effiziente Ausschreibung und
+                                                    Einkauf von
+                                                    Rechtsdienstleistungen
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="national-item">
+                                        <img
+                                            src="img/explore-tour-5.jpg"
+                                            class="img-fluid w-100 rounded"
+                                            alt="Image"
+                                        />
+                                        <div class="national-content">
+                                            <div class="national-info">
+                                                <h5
+                                                    class="text-white text-uppercase mb-2"
+                                                >
+                                                    Spezialisiert auf
+                                                    Rechtsdomizil-Services
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="national-item">
+                                        <img
+                                            src="img/explore-tour-6.jpg"
+                                            class="img-fluid w-100 rounded"
+                                            alt="Image"
+                                        />
+                                        <div class="national-content">
+                                            <div class="national-info">
+                                                <h5
+                                                    class="text-white text-uppercase mb-2"
+                                                >
+                                                    Unterstützung von
+                                                    öffentlichen Institutionen
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            id="InternationalTab-2"
+                            class="tab-pane fade show p-0"
+                        >
+                            <div
+                                class="InternationalTour-carousel owl-carousel"
+                            >
+                                <div class="international-item">
+                                    <img
+                                        src="img/explore-tour-1.jpg"
+                                        class="img-fluid w-100 rounded"
+                                        alt="Image"
+                                    />
+                                    <div class="international-content">
+                                        <div class="international-info">
+                                            <h5
+                                                class="text-white text-uppercase mb-2"
+                                            >
+                                                Australia
+                                            </h5>
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white me-4"
+                                                ><i
+                                                    class="fas fa-map-marker-alt me-1"
+                                                ></i>
+                                                8 Cities</a
+                                            >
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white"
+                                                ><i class="fa fa-eye ms-2"></i>
+                                                <span>143+ Tour Places</span></a
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="tour-offer bg-success">
+                                        30% Off
+                                    </div>
+                                    <div class="international-plus-icon">
+                                        <a href="#" class="my-auto"
+                                            ><i
+                                                class="fas fa-link fa-2x text-white"
+                                            ></i
+                                        ></a>
+                                    </div>
+                                </div>
+                                <div class="international-item">
+                                    <img
+                                        src="img/explore-tour-2.jpg"
+                                        class="img-fluid w-100 rounded"
+                                        alt="Image"
+                                    />
+                                    <div class="international-content">
+                                        <div class="international-info">
+                                            <h5
+                                                class="text-white text-uppercase mb-2"
+                                            >
+                                                Germany
+                                            </h5>
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white me-4"
+                                                ><i
+                                                    class="fas fa-map-marker-alt me-1"
+                                                ></i>
+                                                12 Cities</a
+                                            >
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white"
+                                                ><i class="fa fa-eye ms-2"></i>
+                                                <span>21+ Tour Places</span></a
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="international-plus-icon">
+                                        <a href="#" class="my-auto"
+                                            ><i
+                                                class="fas fa-link fa-2x text-white"
+                                            ></i
+                                        ></a>
+                                    </div>
+                                </div>
+                                <div class="international-item">
+                                    <img
+                                        src="img/explore-tour-3.jpg"
+                                        class="img-fluid w-100 rounded"
+                                        alt="Image"
+                                    />
+                                    <div class="international-content">
+                                        <div class="tour-offer bg-warning">
+                                            45% Off
+                                        </div>
+                                        <div class="international-info">
+                                            <h5
+                                                class="text-white text-uppercase mb-2"
+                                            >
+                                                Spain
+                                            </h5>
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white me-4"
+                                                ><i
+                                                    class="fas fa-map-marker-alt me-1"
+                                                ></i>
+                                                9 Cities</a
+                                            >
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white"
+                                                ><i class="fa fa-eye ms-2"></i>
+                                                <span>133+ Tour Places</span></a
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="international-plus-icon">
+                                        <a href="#" class="my-auto"
+                                            ><i
+                                                class="fas fa-link fa-2x text-white"
+                                            ></i
+                                        ></a>
+                                    </div>
+                                </div>
+                                <div class="international-item">
+                                    <img
+                                        src="img/explore-tour-4.jpg"
+                                        class="img-fluid w-100 rounded"
+                                        alt="Image"
+                                    />
+                                    <div class="international-content">
+                                        <div class="international-info">
+                                            <h5
+                                                class="text-white text-uppercase mb-2"
+                                            >
+                                                Japan
+                                            </h5>
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white me-4"
+                                                ><i
+                                                    class="fas fa-map-marker-alt me-1"
+                                                ></i>
+                                                8 Cities</a
+                                            >
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white"
+                                                ><i class="fa fa-eye ms-2"></i>
+                                                <span>137+ Tour Places</span></a
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="international-plus-icon">
+                                        <a href="#" class="my-auto"
+                                            ><i
+                                                class="fas fa-link fa-2x text-white"
+                                            ></i
+                                        ></a>
+                                    </div>
+                                </div>
+                                <div class="international-item">
+                                    <img
+                                        src="img/explore-tour-5.jpg"
+                                        class="img-fluid w-100 rounded"
+                                        alt="Image"
+                                    />
+                                    <div class="international-content">
+                                        <div class="tour-offer bg-info">
+                                            70% Off
+                                        </div>
+                                        <div class="international-info">
+                                            <h5
+                                                class="text-white text-uppercase mb-2"
+                                            >
+                                                London
+                                            </h5>
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white me-4"
+                                                ><i
+                                                    class="fas fa-map-marker-alt me-1"
+                                                ></i>
+                                                17 Cities</a
+                                            >
+                                            <a
+                                                href="#"
+                                                class="btn-hover text-white"
+                                                ><i class="fa fa-eye ms-2"></i>
+                                                <span>26+ Tour Places</span></a
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="international-plus-icon">
+                                        <a href="#" class="my-auto"
+                                            ><i
+                                                class="fas fa-link fa-2x text-white"
+                                            ></i
+                                        ></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Explore Tour Start -->
+
+        <!-- Tour Booking Start -->
+        <div class="container-fluid booking py-5">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-12">
+                        <h5 class="section-booking-title pe-3">
+                            Warum Sie uns als Ihre Rechtsberater wählen sollten
+                        </h5>
+                        <h1 class="text-white mb-4">Unsere Vorteile</h1>
+                        <p class="text-white mb-4">
+                            Unsere Kanzlei bietet Ihnen zahlreiche Vorteile, die
+                            uns von anderen abheben und uns zu Ihrem idealen
+                            Partner für juristische Angelegenheiten in der
+                            Schweiz machen. Wir sind stolz darauf, umfassende
+                            und hochwertige Rechtsdienstleistungen anzubieten,
+                            die speziell auf die Bedürfnisse unserer Klienten
+                            zugeschnitten sind. Umfassende Expertise: Unser Team
+                            besteht aus erfahrenen Anwälten und Juristen, die
+                            auf verschiedene Rechtsgebiete spezialisiert sind.
+                            Wir arbeiten eng mit renommierten Institutionen wie
+                            dem Rechtsdienst UniBas, dem Rechtsdienst UZH und
+                            dem Rechtsdienst UniBe zusammen, um Ihnen
+                            erstklassige juristische Beratung und Unterstützung
+                            zu bieten. Unentgeltliche Rechtsdienstleistungen:
+                            Wir setzen uns dafür ein, dass jeder Zugang zu
+                            rechtlicher Unterstützung hat, unabhängig von den
+                            finanziellen Möglichkeiten. Unsere unentgeltlichen
+                            Rechtsdienstleistungen, in Zusammenarbeit mit dem
+                            Rechtsdienst Unispital und dem Rechtsdienst Uri,
+                            stellen sicher, dass Sie die rechtliche Hilfe
+                            erhalten, die Sie benötigen.
+                        </p>
+                        <p class="text-white mb-4">
+                            Effiziente Vermittlung und Erbringung von
+                            Rechtsdienstleistungen: Wir sind Experten in der
+                            Vermittlung und Erbringung von
+                            Rechtsdienstleistungen. Unser Netzwerk umfasst
+                            führende Institutionen und Organisationen, um Ihnen
+                            maßgeschneiderte Lösungen anzubieten. Von der
+                            Beratung bis zur Vertretung – wir sind für Sie da.
+                            Professionelle Ausschreibung und Einkauf von
+                            Rechtsdienstleistungen: Unsere Kanzlei unterstützt
+                            Organisationen und öffentliche Institutionen bei der
+                            Ausschreibung und dem Einkauf von
+                            Rechtsdienstleistungen. Mit unserer Hilfe finden
+                            Institutionen wie das Volksschulamt (VSA) und der
+                            Verband Schweizerischer Maschinenindustrieller
+                            (VSSM) die besten juristischen Dienstleister für
+                            ihre Bedürfnisse. Spezialisierte Dienstleistungen
+                            für öffentliche und private Einrichtungen: Wir
+                            bieten spezialisierte Rechtsdienstleistungen für
+                            verschiedene Sektoren, darunter
+                            Bildungseinrichtungen und medizinische
+                            Institutionen. Ob Rechtsdienst Volksschulamt oder
+                            Rechtsdomizil-Services – wir haben die Erfahrung und
+                            das Fachwissen, um Ihre rechtlichen Anforderungen zu
+                            erfüllen. Engagierter Kundenservice: Bei uns steht
+                            der Kunde im Mittelpunkt. Wir nehmen uns die Zeit,
+                            Ihre individuellen Bedürfnisse zu verstehen und
+                            bieten Ihnen persönliche und engagierte
+                            Unterstützung. Unsere Mission ist es, Ihnen bei
+                            allen rechtlichen Fragen kompetent und zuverlässig
+                            zur Seite zu stehen. Vertrauen Sie auf unsere
+                            langjährige Erfahrung und unser umfassendes
+                            Know-how, um Ihre rechtlichen Herausforderungen
+                            erfolgreich zu meistern. Mit uns an Ihrer Seite sind
+                            Sie in guten Händen.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Tour Booking End -->
+
+        <!-- Travel Guide Start -->
+        <div class="container-fluid guide py-5">
+            <div class="container py-5">
+                <div class="mx-auto text-center mb-5" style="max-width: 900px">
+                    <h5 class="section-title px-3">
+                        Engagierte Experten für Ihre rechtlichen Bedürfnisse
+                    </h5>
+                    <h1 class="mb-0">Unser Team</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="guide-item">
+                            <div class="guide-img">
+                                <div class="guide-img-efects">
+                                    <img
+                                        src="img/guide-1.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Image"
+                                    />
+                                </div>
+                            </div>
+                            <div
+                                class="guide-title text-center rounded-bottom p-4"
+                            >
+                                <div class="guide-title-inner">
+                                    <h4 class="mt-3">Thomas Meier</h4>
+                                    <p class="mb-0">
+                                        Fachanwalt für Unternehmensrecht
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="guide-item">
+                            <div class="guide-img">
+                                <div class="guide-img-efects">
+                                    <img
+                                        src="img/guide-2.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Image"
+                                    />
+                                </div>
+                            </div>
+                            <div
+                                class="guide-title text-center rounded-bottom p-4"
+                            >
+                                <div class="guide-title-inner">
+                                    <h4 class="mt-3">Dr. Michael Schneider</h4>
+                                    <p class="mb-0">Anwalt für Medizinrecht</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="guide-item">
+                            <div class="guide-img">
+                                <div class="guide-img-efects">
+                                    <img
+                                        src="img/guide-3.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Image"
+                                    />
+                                </div>
+                            </div>
+                            <div
+                                class="guide-title text-center rounded-bottom p-4"
+                            >
+                                <div class="guide-title-inner">
+                                    <h4 class="mt-3">Markus Weber</h4>
+                                    <p class="mb-0">
+                                        Jurist für Immobilienrecht
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="guide-item">
+                            <div class="guide-img">
+                                <div class="guide-img-efects">
+                                    <img
+                                        src="img/guide-4.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Image"
+                                    />
+                                </div>
+                            </div>
+                            <div
+                                class="guide-title text-center rounded-bottom p-4"
+                            >
+                                <div class="guide-title-inner">
+                                    <h4 class="mt-3">Dr. David Steiner</h4>
+                                    <p class="mb-0">Anwalt für Arbeitsrecht</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Travel Guide End -->
+
+        <!-- Contact Start -->
+        <div class="container-fluid contact bg-light py-5">
+            <div class="container py-5">
+                <div class="mx-auto text-center mb-5" style="max-width: 900px">
+                    <h5 class="section-title px-3">Kontakt</h5>
+                    <h1 class="mb-0">Kontakt für alle Fragen</h1>
+                </div>
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="rounded">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241.14124802407338!2d8.540767407784084!3d47.371704180665255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900a0735cc4023%3A0xdfec092d6c2d6626!2sLogop%C3%A4dische%20Praxis%20Z%C3%BCrich!5e0!3m2!1suk!2sua!4v1718121904805!5m2!1suk!2sua"
+                                class="rounded w-100"
+                                style="height: 450px"
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="mb-2">Senden Sie uns eine Nachricht</h3>
+
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control border-0"
+                                            id="name"
+                                            placeholder="Ihr Name"
+                                        />
+                                        <label for="name">Ihr Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="email"
+                                            class="form-control border-0"
+                                            id="email"
+                                            placeholder="Ihre E-Mail-Adresse"
+                                            itemid="email"
+                                        />
+                                        <label for="email"
+                                            >Ihre E-Mail-Adresse</label
+                                        >
+                                        <div
+                                            id="result"
+                                            style="color: red"
+                                        ></div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control border-0"
+                                            id="subject"
+                                            placeholder="Betreff"
+                                        />
+                                        <label for="subject">Betreff</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea
+                                            class="form-control border-0"
+                                            placeholder="Hier Nachricht hinterlassen"
+                                            id="message"
+                                            style="height: 160px"
+                                        ></textarea>
+                                        <label for="message">Nachricht</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button
+                                        class="btn btn-primary w-100 py-3"
+                                        type="submit"
+                                        id="submit"
+                                        onclick="sendForm()"
+                                    >
+                                        Nachricht senden
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">SwissLex</h4>
+                            <p class="text-white">
+                                SchweizerLegal ist eine führende Anwaltskanzlei,
+                                die sich auf die Legalisierung in der Schweiz
+                                und umfassende juristische Dienstleistungen
+                                spezialisiert hat. Unser erfahrenes Team bietet
+                                kompetente Beratung und Unterstützung in allen
+                                Fragen des Aufenthaltsrechts,
+                                Arbeitsgenehmigungen, und weiteren rechtlichen
+                                Belangen.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Get In Touch</h4>
+                            <a href=""
+                                ><i class="fas fa-home me-2"></i> Glockengasse
+                                9, 8001 Zürich, Switzerland</a
+                            >
+                            <a href=""
+                                ><i class="fas fa-envelope me-2"></i>
+                                swiss_lex@gnmail.com</a
+                            >
+                            <a href=""
+                                ><i class="fas fa-phone me-2"></i>
+                                +41793986263</a
+                            >
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Support</h4>
+
+                            <a href="index.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Startseite</a
+                            >
+                            <a href="about.html"
+                                ><i class="fas fa-angle-right me-2"></i> Über
+                                uns</a
+                            >
+                            <a href="privacy-policy.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Datenschutzrichtlinie</a
+                            >
+                            <a href="terms-of-use.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Nutzungsbedingungen</a
+                            >
+                            <a href="bussines-model.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Business-Modell</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright text-body py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div
+                        class="col-md-12 text-center text-md-end mb-md-0"
+                        style="text-align: center !important"
+                    >
+                        <a class="text-white text-center"
+                            >Haftungsausschluss: Die Informationen auf dieser
+                            Website sind nicht dazu gedacht, Rechtsberatung zu
+                            bieten oder eine Anwalts-Mandanten-Beziehung zu
+                            begründen. Die bereitgestellten Informationen,
+                            Dokumente oder Formulare dienen nur allgemeinen
+                            Informationszwecken und sollten nicht als
+                            Rechtsberatung betrachtet werden. Gesetze ändern
+                            sich regelmäßig; daher können die Informationen auf
+                            dieser Website ungenau sein. Es ist von
+                            entscheidender Bedeutung, dass Sie rechtlichen Rat
+                            einholen, um Ihre Rechte und Pflichten gemäß dem
+                            geltenden Recht und basierend auf Ihren spezifischen
+                            Umständen zu ermitteln.</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"
+            ><i class="fa fa-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie-Zustimmung</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Diese Website verwendet Cookies, um Ihnen ein besseres und
+                    besseres und relevanteres Surferlebnis auf der Website zu
+                    ermöglichen.
+                    <a href="#">Mehr erfahren...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">
+                    Akzeptieren
+                </button>
+                <button class="cookie-button" id="declineBtn">Rückgang</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+        <script src="js/contact-form.js"></script>
+    </body>
+</html>
